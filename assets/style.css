@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+}
+
+header {
+  height: 10vh;
+  background-color: aquamarine;
+}
+
+main {
+  min-height: 80vh;
+  background-color: whitesmoke;
+  position: relative;
+}
+
+.float-container {
+  height: 80vh;
+  background-color: red;
+}
+
+.box1 {
+  height: 50%;
+  width: 50%;
+  background-color: blueviolet;
+  float: left;
+}
+
+.box2 {
+  height: 50%;
+  width: 50%;
+  background-color: yellowgreen;
+  float: left;
+}
+
+.box3 {
+  height: 50%;
+  width: 50%;
+  background-color: grey;
+  float: left;
+}
+
+.box4 {
+  height: 50%;
+  width: 50%;
+  background-color: peru;
+  float: left;
+}
+
+.centered-box {
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  height: 10vh;
+  background-color: aquamarine;
+}
